@@ -1,0 +1,5 @@
+---
+- name: Deploy the new WAR file to target servers
+  
+  copy: src=/var/lib/jenkins/workspace/Ansible-Maven-Test/target/TomcatMavenApp-2.0.war dest=/opt/tomcat/webapps
+

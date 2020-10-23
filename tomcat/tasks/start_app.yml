@@ -1,0 +1,5 @@
+---
+
+- name: Start application on {{ansible_hostname}}
+  command: wget "http://{{tomcat_user}}:{{tomcat_pwd}}@{{ansible_hostname}}:8080/manager/text/start?path=/TomcatMavenApp" -O - -q
+

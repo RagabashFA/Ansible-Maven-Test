@@ -1,0 +1,4 @@
+---
+
+- name: Undeploy application on {{ansible_hostname}}
+  command: wget "http://{{tomcat_user}}:{{tomcat_pwd}}@{{ansible_hostname}}:8080/manager/text/undeploy?path=/TomcatMavenApp" -O - -q
