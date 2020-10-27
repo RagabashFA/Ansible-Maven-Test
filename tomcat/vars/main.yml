@@ -2,4 +2,4 @@
 # vars file for tomcat
 
 tomcat_user: admin
-tomcat_pwd: zxc2403
+tomcat_pwd: admin
